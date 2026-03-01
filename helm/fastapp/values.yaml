@@ -10,6 +10,9 @@ service:
   port: 80
   targetPort: 3000
 
+httpRoute:
+  enabled: false
+  
 serviceAccount:
   create: true
   name: ""
